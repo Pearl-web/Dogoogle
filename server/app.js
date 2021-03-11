@@ -4,7 +4,7 @@ const data = require('./data')
 const app = express();
 const results = require('./routes/results')
 
-
+app.use(cors());
 
 app.get('/', (req,res) => {
     res.send("Dogoogle");
