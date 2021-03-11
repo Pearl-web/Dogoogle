@@ -23,17 +23,20 @@ function getResults(){
     .then(res => res.json())
     .then (data => { data.forEach(element => {
         const div = document.createElement('div')
-        // div.textContent = element.heading + element.url + element.desc
         resultsSection.appendChild(div)
         const website = document.createElement('h3')
         website.textContent = element.url
         div.appendChild(website)
+        const link = document.createElement('a')
+        link.setAttribute('href',element.url)
         const title = document.createElement('h2')
         title.textContent = element.heading
-        div.appendChild(title)
+        div.appendChild(link)
+        link.appendChild(title)
         const description = document.createElement('p')
         description.textContent = element.desc
         div.appendChild(description)
+     
         })
     })
 }

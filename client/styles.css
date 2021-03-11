@@ -146,7 +146,12 @@ input[type=submit], input[type=button] {
 h2 {
     color:teal;
     padding:5px 0px;
+    ;
 }
+
+ a:link{
+     text-decoration: none;
+ }
 
 h3, p{
     font-weight: 100;
