@@ -5,10 +5,20 @@ const body = document.querySelector('body')
 const searchPage = document.getElementById('searchPage')
 const resultsPage = document.getElementById('resultsPage')
 const resultsSection = document.getElementById('results')
+const button = document.getElementById('button')
 
 
 
 form.addEventListener('submit', DogoogleSearch)
+button.addEventListener('click', randomSearch)
+
+
+function randomSearch(){
+    fetch('http://localhost:3000/results/random')
+        .then(res => res.json())
+        .then (link => location.href = link.url)
+}
+
 
 
 function DogoogleSearch(e){
