@@ -6,6 +6,7 @@ const searchPage = document.getElementById('searchPage')
 const resultsPage = document.getElementById('resultsPage')
 const resultsSection = document.getElementById('results')
 const button = document.getElementById('button')
+const input = document.getElementsByTagName('input')[0]
 
 
 
@@ -23,7 +24,19 @@ function randomSearch(){
 
 function DogoogleSearch(e){
     e.preventDefault()
+    if (input.value === "" || input.value === 'dogs'){
     getResults()
+    }
+    else {
+    //    getSearchResults()
+    // collect input value from user 
+    // add into fetch url
+    //respond with just that one search result
+
+    }
+
+
+
     toggle()
 }
 
@@ -49,6 +62,7 @@ function getResults(){
      
         })
     })
+
 }
 
 
