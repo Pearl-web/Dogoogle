@@ -1,3 +1,5 @@
+//server is imported into here and started when this file is run
+
 const app = require('./app');
 const port = 3000;
 
