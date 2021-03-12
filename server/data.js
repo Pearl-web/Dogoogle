@@ -9,8 +9,6 @@ const dogs = [
     {id: 8, heading: "St Bernard", url: "https://dogtime.com/dog-breeds/saint-bernard", desc:"The St. Bernard or St Bernard is a breed of very large working dog from the western Alps in Italy and Switzerland. They were originally bred for rescue work by the hospice of the Great St Bernard Pass on the Italian-Swiss border."},
     {id: 9, heading: "Dalmatian", url: "https://www.akc.org/dog-breeds/dalmatian/", desc:"The Dalmatian is a breed of large-sized dog, noted for its unique white coat marked with black or liver-colored spots. Originating as a hunting dog, it was also used as a carriage dog in its early days. The origins of this breed can be traced back to Croatia and its historical region of Dalmatia."},
     {id: 10, heading: "Cocker Spaniel", url: "https://dogtime.com/dog-breeds/english-cocker-spaniel", desc:"The English Cocker Spaniel is a breed of gun dog. It is noteworthy for producing one of the most varied numbers of pups in a litter among all dog breeds. The English Cocker Spaniel is an active, good-natured, sporting dog standing well up at the withers and compactly built."}
-
-
 ]
 
 
