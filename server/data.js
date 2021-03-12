@@ -11,13 +11,8 @@ const dogs = [
     {id: 10, heading: "Cocker Spaniel", url: "https://dogtime.com/dog-breeds/english-cocker-spaniel", desc:"The English Cocker Spaniel is a breed of gun dog. It is noteworthy for producing one of the most varied numbers of pups in a litter among all dog breeds. The English Cocker Spaniel is an active, good-natured, sporting dog standing well up at the withers and compactly built."}
 
 
-
-
-
-
-
-
 ]
+
 
 
 
